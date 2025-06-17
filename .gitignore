@@ -1,5 +1,23 @@
-.venv/
-.env
-__pycache__/
+# Python
 *.pyc
+__pycache__/
+
+# PyCharm
+.idea/
+
+# Sanal ortam (venv)
+.venv/
+env/
+venv/
+
+# Gizli dosyalar
+.env
+*.env
+*.secret
+*.key
+
+# Log dosyaları
 *.log
+
+# macOS dosyaları
+.DS_Store
